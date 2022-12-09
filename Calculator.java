@@ -11,6 +11,6 @@ public class a1Demo{
         a.num1=10;
         a.num2=15;
 	    a.perform();
-        System.out.println(a1.result);	
+        System.out.println(a.result);	
 	}
 }	
