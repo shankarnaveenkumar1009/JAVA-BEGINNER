@@ -1,6 +1,6 @@
 class Calc{
-	int num1;
-	int num2;
+	int number1;
+	int number2;
 	public void perform(){
 		result = num1 + num2;
 	}
@@ -8,8 +8,8 @@ class Calc{
 public class ObjectDemo{
 	public static void main(String[]args){
 	    Calc obj=new Calc();
-        obj.num1=10;
-        obj.num2=15;
+        obj.number1=10;
+        obj.number2=15;
 	    obj.perform();
         System.out.println(obj.result);	
 	}
